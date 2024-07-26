@@ -1,0 +1,23 @@
+{
+  "name": "amcocan.online",
+  "version": "1.0.0",
+  "description": "digital portfolio development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMCocan/amcocan.online.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMCocan/amcocan.online/issues"
+  },
+  "homepage": "https://github.com/AMCocan/amcocan.online#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}
