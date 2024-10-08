@@ -1,7 +1,6 @@
 # Ignore file for git project.
-
-src/input.css
-node_modules/*
+src/**
+node_modules/**
 package-lock.json
 
 # MAC ignores
