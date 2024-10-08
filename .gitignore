@@ -1,0 +1,8 @@
+# Ignore file for git project.
+
+src/input.css
+node_modules/*
+package-lock.json
+
+# MAC ignores
+.DS_Store
