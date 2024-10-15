@@ -7,41 +7,14 @@
     <link rel="stylesheet" href="output.css" />
   </head>
 
-  <!--
-  Page with will be like 540pt or maybe like 50%
-  color: black
-  color: rose-600
-  color: #FF0046
-  padding: 5pt
-  margin: 5pt
-  border: solid black 1pt
-  h1 line-height: 34pt
-  text: (no indents)
-  font-family: Calibri, sans-serif;
-  font-size: 10pt, 20pt, 30pt
+  <body class="grid grid-cols-12">
 
-  #l1>li>*:first-child:before {
-            content: " ";
-            color: black;
-            font-family: Wingdings;
-            font-style: normal;
-            font-weight: normal;
-            text-decoration: none;
-            font-size: 10pt;
-        }
-  
-   vertical-align: top;
-  
-  -->
-
-  <body class="bg-gray-950">
-
-    <!-- Resume Div -->
+    <!-- Resume Layer -->
     <div
-      class="w-1/2 grid grid-cols-6 border-solid  p-5 bg-white shadow-2xl"
+      class="col-span-full md:col-span-full lg:col-start-3 lg:col-end-11 xl:col-start-4 xl:col-end-10 grid grid-cols-6 border-solid h-full p-5 bg-white backdrop-blur-md"
     >
       <div class="grid-cols-4 col-span-full inline-grid">
-        <div class="col-start-1 col-end-4 h-full px-2 pb-2 ">
+        <div class="col-start-1 col-end-4 h-full px-2 pb-2">
           <p class="mt-5 text-left text-5xl font-sans">Andrei Cocan</p>
           <p class="text-left text-xl text-crimson font-sans">
             Cybersecurity Professional
@@ -54,7 +27,7 @@
             <a href="mailto:amcocan@protonmail.com">amcocan@protonmail.com</a>
           </p>
           <span class="inline-block align-middle float-right">
-            <a href="https://github.com/amcocan">
+            <a target="_blank" href="https://github.com/amcocan">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -89,7 +62,7 @@
             </a>
           </span>
           <span class="inline-block align-middle float-right">
-            <a href="https://www.linkedin.com/in/amcocan/">
+            <a target="_blank" href="https://www.linkedin.com/in/amcocan/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -125,7 +98,9 @@
           </span>
         </div>
       </div>
-      <div class="grid-rows-1 col-span-full inline-grid border-solid border-t-2 border-black">
+      <div
+        class="grid-rows-1 col-span-full inline-grid border-solid border-t-2 border-black"
+      >
         <div class="row-span-full col-span-full p-2">
           <p class="text-base">
             Highly motivated Cybersecurity, IT graduate, and curious learner
@@ -140,14 +115,16 @@
           </p>
         </div>
       </div>
-      <div class="col-span-full inline-grid border-solid border-t-2 border-black">
+      <div
+        class="col-span-full inline-grid border-solid border-t-2 border-black"
+      >
         <div class="pt-2 px-2">
           <p class="font-sans font-bold text-xl">Technical Skills:</p>
         </div>
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Certifications:</p>
+          <p class="font-sans font-semibold">Certifications:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">
@@ -158,7 +135,7 @@
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Cloud Platforms:</p>
+          <p class="font-sans font-semibold">Cloud Platforms:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">
@@ -168,7 +145,7 @@
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Compliance:</p>
+          <p class="font-sans font-semibold">Compliance:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">PCI DSS, GDPR, HIPAA, CCPA, SOX</p>
@@ -176,7 +153,7 @@
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Databases:</p>
+          <p class="font-sans font-semibold">Databases:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">MySQL, MongoDB, MariaDB, Microsoft SQL</p>
@@ -184,7 +161,7 @@
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Frameworks:</p>
+          <p class="font-sans font-semibold">Frameworks:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">
@@ -196,7 +173,7 @@
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Networking:</p>
+          <p class="font-sans font-semibold">Networking:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">
@@ -206,7 +183,7 @@
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Operating Systems:</p>
+          <p class="font-sans font-semibold">Operating Systems:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">
@@ -217,7 +194,7 @@
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Programming/Scripting:</p>
+          <p class="font-sans font-semibold">Programming/Scripting:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">Python, PowerShell, Bash</p>
@@ -225,7 +202,7 @@
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Security:</p>
+          <p class="font-sans font-semibold">Security:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">
@@ -236,7 +213,7 @@
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Tools:</p>
+          <p class="font-sans font-semibold">Tools:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">
@@ -247,21 +224,25 @@
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Virtualization:</p>
+          <p class="font-sans font-semibold">Virtualization:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
-          <p class="font-sans">VMware Fusion/Workstation, KVM, VirtualBox, UTM</p>
+          <p class="font-sans">
+            VMware Fusion/Workstation, KVM, VirtualBox, UTM
+          </p>
         </div>
       </div>
       <div class="grid-cols-6 col-span-full inline-grid">
         <div class="col-start-1 col-end-3 px-2 py-1">
-          <p class="font-sans font-bold">Web Servers:</p>
+          <p class="font-sans font-semibold">Web Servers:</p>
         </div>
         <div class="col-start-3 col-end-7 px-2 py-1">
           <p class="font-sans">Apache, NGINX</p>
         </div>
       </div>
-      <div class="grid-cols-1 col-span-full inline-grid mt-2 border-solid border-t-2 border-black">
+      <div
+        class="grid-cols-1 col-span-full inline-grid mt-2 border-solid border-t-2 border-black"
+      >
         <div class="col-span-full pt-2 px-2">
           <p class="font-sans font-bold text-xl">Education:</p>
         </div>
@@ -286,7 +267,9 @@
           <p class="text-crimson text-right">June 2023</p>
         </div>
       </div>
-      <div class="grid-cols-1 col-span-full inline-grid border-solid border-t-2 border-black">
+      <div
+        class="grid-cols-1 col-span-full inline-grid border-solid border-t-2 border-black"
+      >
         <div class="col-span-full pt-2 px-2">
           <p class="font-sans font-bold text-xl">Project Experience:</p>
         </div>
@@ -331,7 +314,9 @@
           </ul>
         </div>
       </div>
-      <div class="grid-cols-1 col-span-full inline-grid border-solid border-t-2 border-black">
+      <div
+        class="grid-cols-1 col-span-full inline-grid border-solid border-t-2 border-black"
+      >
         <div class="col-span-full pt-2 px-2">
           <p class="font-sans font-bold text-xl">Relevant Coursework:</p>
         </div>

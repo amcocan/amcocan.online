@@ -14,10 +14,16 @@ module.exports = {
         'crimson': '#FF004A',
         'black': '#000000'
       },
-      
+
+      spacing:
+      {
+        'lgaline': '16.666667%'
+      },
+
       borderRadius:
       {
         // '4xl': '2rem',
+        'unix': '10px',
       }
     },
   },
